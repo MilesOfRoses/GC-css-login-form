@@ -1,6 +1,9 @@
 body {
     background-color: #D47677;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #formbox {
@@ -8,8 +11,7 @@ body {
     padding: 1rem 0 1rem 0; 
     background-color: #F0F0F0;
     width: 35rem;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
 }
 
 .inputText{
@@ -20,7 +22,8 @@ body {
     height: 3rem;
     border: solid #AAAAAA 1px;
     color: #aaa;
-    
+    padding-left: 20px;
+    font-size: 1.1rem;
 }
 ::placeholder {
     color: #aaa;
@@ -33,7 +36,7 @@ p {
 h1{
     text-align: center;
     color: #7E7E7E;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: normal;
 }
 
@@ -50,4 +53,3 @@ h1{
 #checkbox {
     margin-left: 5rem; 
 }
-
